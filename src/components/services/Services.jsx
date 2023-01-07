@@ -23,7 +23,7 @@ const Services = () => {
     </li>
     <li>
       <FiCheck className='service_list-icon'/>
-        <p>Our inspiration is in the idea of the  ​​innovating, of shining we need energy.</p>  
+        <p>Our inspiration is in the idea of the ​​innovating, of shining we need energy.</p>  
     </li> <li>
       <FiCheck className='service_list-icon'/>
         <p>Creating applications with the best visuals, real structures, absolute control.</p>  
