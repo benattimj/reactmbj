@@ -2,7 +2,8 @@
 
 Build & Deploy React JS Portfolio Website [ FULL RESPONSIVE UI/UX ]
 
-The Website : https://reactmbj-z2fy.vercel.app
+The Website : https://mbjportofolio.vercel.app/
+
 
 pt1
 
