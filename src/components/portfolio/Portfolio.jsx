@@ -32,7 +32,7 @@ const Portfolio = () => {
         <img src={IMG2} alt="" />
         </div>
        
-        <h3>Softwares capable of doing the impossible</h3>
+        <h3>Softwares capaxble of doing the impossible</h3>
         <div className="portfolio_items-cta">
         <a href="https://github.com/benattimj" className='btn btn-primary'>GitHub</a>
                 <a href="https://dribbble.com/shots/20239671-Wallet-Desktop-app" className='btn' target='_blank' rel="noopener noreferrer">Live Demo</a>
