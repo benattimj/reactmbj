@@ -49,7 +49,7 @@ transition: var(--transition);
 
 .service_list-icon {
 color: var(--color-primary);
-margin-top: 2pix;
+margin-top: 2px;
 
 }
 
@@ -57,22 +57,17 @@ margin-top: 2pix;
     font-size: 0.9rem;
 }
 
-/* Media queries (medium devices) */
 
-@media screen and (max-width: 1024px) {
-    .service_container{
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
-
-    .service {
-        height: auto;
-    }
-
-}
+/* Media queries (small devices) */
 @media screen and (max-width: 600px) {
-    .service_container {
+    .services_container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    
+    .service {
+        max-width: 100%; /* Define a largura máxima para ocupar toda a largura da tela */
+        padding: 1rem; /* Ajusta os paddings para dispositivos menores */
+        margin-bottom: 1.5rem; /* Ajusta as margens para dispositivos menores */
     }
 }
