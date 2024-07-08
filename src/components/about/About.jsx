@@ -36,11 +36,7 @@ const About = () => {
       <article className='about_card'>
           <VscFolderActive className='about_icon'/>
           <h5>Projects</h5>
-<<<<<<< HEAD
           <small> 35+ Completed </small>
-=======
-          <small> 5+ Completed </small>
->>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
       </article>
 
         <p className='P'> Master of Responsive websites
@@ -48,11 +44,7 @@ const About = () => {
         </p>
 
           <x>
-<<<<<<< HEAD
         <a href ="https://api.whatsapp.com/send/?phone=5534999047919&text&type=phone_number&app_absent=0" className='btn btn-primary'> Let's Talk
-=======
-        <a href ="https://www.linkedin.com/in/murilo-justinob/recent-activity/" className='btn btn-primary'> Let's Talk
->>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
         </a>
         </x>
       </div>

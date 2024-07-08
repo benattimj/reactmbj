@@ -16,37 +16,29 @@ import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 
 const data = [
-{
-  avatar: AVTR1,
-  name: 'Carlos Tow',
-  review: 'Nice work The move follows a detailed project review that identified several opportunities to de-bottleneck the refinery and revamp'
-},
-{
-  avatar: AVTR2,
-  name: 'Willian Guilt',
-  review: 'I spent to much time searching for something like you. Thanks for the support.'
-},
-{
-  avatar: AVTR3,
-<<<<<<< HEAD
-  name: 'Serina Rod',
-=======
-  name: 'Serina Dechichi',
->>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
-  review: ' Amazing functions, Its perfect nowadays have systems and applications done with sucessfull work hard'
-},
-{
-  avatar: AVTR4,
-<<<<<<< HEAD
-  name: 'Roland Er',
-=======
-  name: 'Gesse Borges',
->>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
-review: 'Easy to use platform. Very good and fast support. Highly recommended.'
-}
+  {
+    avatar: AVTR1,
+    name: 'Carlos Tow',
+    review: 'Nice work The move follows a detailed project review that identified several opportunities to de-bottleneck the refinery and revamp'
+  },
+  {
+    avatar: AVTR2,
+    name: 'Willian Guilt',
+    review: 'I spent to much time searching for something like you. Thanks for the support.'
+  },
+  {
+    avatar: AVTR3,
+    name: 'Serina Raaod',
+    review: ' Amazing functions, Its perfect nowadays have systems and applications done with sucessfull work hard'
+  },
+  {
+    avatar: AVTR4,
+    name: 'Roland Er',
+    review: 'Easy to use platform. Very good and fast support. Highly recommended.'
+  
+  }
 
-
-]
+];
 
 const Testimonials = () => {
   return (
@@ -55,25 +47,25 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials_container"
-      modules={[Pagination]}
-      spaceBetwee={40}
-      slidesPerView={1}
-      pagination={{ clickable: true}} >
-{
-  data.map(({avatar,name,review, index}) => {
-    return (
-      <SwiperSlide key={index} className="testimonial">
-    <div className='client_avatar'>
-        <img src={avatar} alt="Avatar one"/>
-    </div>
-    <h5 className='client_name'> {name}</h5>
-<small className='client_review' >{review}</small>
-      </SwiperSlide>
-    )
-  })
-}
+        modules={[Pagination]}
+        spaceBetwee={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }} >
+        {
+          data.map(({ avatar, name, review, index }) => {
+            return (
+              <SwiperSlide key={index} className="testimonial">
+                <div className='client_avatar'>
+                  <img src={avatar} alt="Avatar one" />
+                </div>
+                <h5 className='client_name'> {name}</h5>
+                <small className='client_review' >{review}</small>
+              </SwiperSlide>
+            )
+          })
+        }
 
-      </Swiper>  
+      </Swiper>
     </section>
   )
 }

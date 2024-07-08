@@ -1,5 +1,4 @@
 header {
-<<<<<<< HEAD
     height: 100vh;
     padding-top: 10rem;
     overflow: hidden;
@@ -17,29 +16,12 @@ header {
     border-radius: 40px;
 }
 
-=======
-height: 100vh;
-padding-top: 10rem;
-overflow: hidden;
-
-}
-
-.med{
-    border-radius: 2rem;
-    
-
-}
->>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
 .cta {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
 .header_container {
     text-align: center;
     height: 100%;
@@ -67,11 +49,7 @@ overflow: hidden;
 
 
 .me {
-<<<<<<< HEAD
     background: linear-gradient(var(--color-primary), transparent);
-=======
-    background: linear-gradient(var(--color-primary),transparent);
->>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     width: 22rem;
     height: 30rem;
     position: absolute;
