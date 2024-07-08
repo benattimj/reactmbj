@@ -28,12 +28,20 @@ const data = [
 },
 {
   avatar: AVTR3,
+<<<<<<< HEAD
   name: 'Serina Rod',
+=======
+  name: 'Serina Dechichi',
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
   review: ' Amazing functions, Its perfect nowadays have systems and applications done with sucessfull work hard'
 },
 {
   avatar: AVTR4,
+<<<<<<< HEAD
   name: 'Roland Er',
+=======
+  name: 'Gesse Borges',
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
 review: 'Easy to use platform. Very good and fast support. Highly recommended.'
 }
 

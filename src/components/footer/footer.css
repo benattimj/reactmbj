@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 footer {
+=======
+footer{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     background: var(--color-primary);
     padding: 3rem 0;
     text-align: center;
@@ -6,20 +10,32 @@ footer {
     margin-top: 7rem;
 }
 
+<<<<<<< HEAD
 footer a {
+=======
+footer a{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     color: var(--color-bg);
 
 }
 
 
+<<<<<<< HEAD
 .footer_logo {
+=======
+.footer_logo{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
 }
 
+<<<<<<< HEAD
 .permalinks {
+=======
+.permalinks{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,14 +43,22 @@ footer a {
     margin: 0 auto 3rem;
 }
 
+<<<<<<< HEAD
 .footer_socials {
+=======
+.footer_socials{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
 }
 
+<<<<<<< HEAD
 .footer_socials a {
+=======
+.footer_socials a{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
@@ -43,27 +67,48 @@ footer a {
     border: 1px solid transparent;
 }
 
+<<<<<<< HEAD
 .footer_socials a:hover {
+=======
+.footer_socials a:hover{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);
 }
 
+<<<<<<< HEAD
 .footer_copyright {
+=======
+.footer_copyright{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {}
 
 
+=======
+@media screen and (max-width: 1024px) {
+
+
+}
+  
+
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
 @media screen and (max-width: 600px) {
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;
     }
 
+<<<<<<< HEAD
     .footer_socials {
+=======
+    .footer_socials{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
         margin-bottom: 2.6rem;
     }
 }

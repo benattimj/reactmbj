@@ -11,11 +11,18 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+<<<<<<< HEAD
 
 
 }
 
 
+=======
+    
+
+}
+
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
 .portfolio_items:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -26,6 +33,7 @@
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 .portfolio_item-image{
     display: flex;
     max-width: 70%;
@@ -36,6 +44,9 @@
 }
 
 .portfolio_items h3 {
+=======
+.portfolio_items h3{
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
     margin: 1.2rem 0 2rem;
 }
 
@@ -43,7 +54,11 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
 }
 
 @media screen and (max-width: 1024px) {
@@ -52,6 +67,7 @@
         gap: 1.2rem;
     }
 
+<<<<<<< HEAD
 
 }
 
@@ -61,4 +77,15 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+=======
+   
+}
+
+@media screen and (max-width: 600px) {
+ 
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+}
+>>>>>>> d5e8989b43751948ca20f32dc84a0f2de99a7f6c
 }
